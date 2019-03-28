@@ -1,0 +1,3 @@
+DEBUG = True
+MY_API_KEY = "45d9613d5c484a0f83215bb85f06e4a3"
+SALT = "thehash"

@@ -1,0 +1,16 @@
+
+pip>=9.0.1
+
+Flask==0.12.2
+
+markdown==2.6.11
+
+cassandra-driver  --install-option="--no-cython"
+
+requests
+
+requests_cache
+
+passlib
+
+werkzeug
