@@ -5,14 +5,14 @@ RUNNING ON GCP
 ## Usage
 
 
-###Set compute region
+### Set compute region
  
 
 
 -`gcloud config set compute/zone europe-west4-b export PROJECT_ID="$(gcloud config get-value project -q)` 
  
 
-###Install the environment requirements
+### Install the environment requirements
 
 
 - `python -m pip install -U -r requirements.txt ` 
@@ -62,7 +62,7 @@ RUNNING ON GCP
 
 
 
-###Deployment
+### Deployment
 
 
 **configure external IP of the pod**
@@ -91,19 +91,19 @@ RUNNING ON GCP
 
 
 
-###Route and response 
+### Route and response 
 
 Readme file
 
 
-**response--------**
+**response**
 <h2>README.md</h2>
 
 
  
 @app.route('/hello')
 
-**response-------**
+**response**
  
 <h2>Hello world!</h2>
 
@@ -114,7 +114,7 @@ Readme file
 
 
 
-**response-------**
+**response**
 
 <h2>Time: 2019-03-17T07:00:00Z</h2>
 
